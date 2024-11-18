@@ -12,7 +12,7 @@ class Main:
     def limpa_tela(self):
         try:
             if os.name == "nt":
-                os.system('cls')
+                os.system('cls') #limpa tela
             else:
                 os.system('clear')
         except Exception as e:
